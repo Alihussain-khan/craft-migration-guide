@@ -5,6 +5,7 @@
 - composer require craftcms/cms:^4.15.0 --update-with-dependencies
 - composer install
 - php craft migrate/all
+- in case of memory error try "php -d memory_limit=1024M craft migrate/all"
 - php craft project-config/apply
 
   
