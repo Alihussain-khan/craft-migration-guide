@@ -9,3 +9,5 @@
 - php craft project-config/apply
 
   
+# db backup (much faster than cp)
+- php craft db/backup
